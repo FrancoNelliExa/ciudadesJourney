@@ -1,4 +1,4 @@
-paquetes <- c("readxl", "dplyr")
+paquetes <- c("readxl", "dplyr", "openxlsx")
 
 instalar <- paquetes[!paquetes %in% installed.packages()[, "Package"]]
 if(length(instalar)) install.packages(instalar)
